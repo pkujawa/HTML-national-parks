@@ -1,0 +1,96 @@
+html {
+}
+body {
+	margin: 0 auto;
+    display: block;
+	width: 1300px;
+}
+#header1 {
+    width:100%;
+	background-color: #fff;
+	float: left;
+}
+#header2 {
+    width:1280px;
+	float: left;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Garamond;
+	text-align: right;
+	background-color: #A6DEEE;
+	color: #336600;
+}
+#left {
+	width: 300px;
+	float: left;
+	background-color: #A6DEEE;
+}
+#right {
+	width: 300px;
+	float: right;
+	background-color: #A6DEEE;
+}
+#content {
+	width: 660px;
+	height:495px;
+	float: left;
+	padding: 20px;
+	font-size: 18px;
+	font-family: Garamond;
+	background-color: #ccc;
+}
+#footer {
+	clear: both;
+	width: 1280px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Garamond;
+	text-align: center;
+	background-color: #A6DEEE;
+}
+a{
+	color: #336600;
+}
+
+a:hover{
+	color: black;
+}
+a:active{
+	color: black;
+}
+.preloader {
+	margin: 30px auto 0;
+	transform: translateZ(0);
+}
+.preloader:before,
+.preloader:after {
+	content: '';
+	position: absolute;
+}
+.preloader:before,
+.preloader:after,
+.preloader {
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	animation: animation 4s infinite ease-in-out;
+}
+.preloader:before {
+	left: -200px;
+	animation-delay: -0.4s;
+}
+.preloader:after {
+	left: 200px;
+	animation-delay: 0.4s;
+}
+@keyframes animation {
+	0%,
+	80%,
+	100% {
+		box-shadow: 38px 40px 0 -25px #ccc;
+	}
+	40% {
+		box-shadow: 0 20px 0 20px #336600;
+	}
+}
+
